@@ -44,8 +44,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "./grid.svg",
+    spareImg: "./b4.svg",
   },
 
   {
@@ -55,8 +55,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "./b5.svg",
+    spareImg: "./grid.svg",
   },
   {
     id: 6,
@@ -75,8 +75,14 @@ export const projects = [
     id: 1,
     title: "Sinhala ASR System (Ongoing)",
     des: "Collaborated on building a robust Sinhala Automatic Speech Recognition (ASR) system. Key contributions include",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    img: "./p1.svg",
+    iconLists: [
+      "./re.svg",
+      "./tail.svg",
+      "./ts.svg",
+      "./three.svg",
+      "./fm.svg",
+    ],
     link: "blank",
   },
   {
