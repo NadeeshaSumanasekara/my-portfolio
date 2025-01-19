@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === "production";
-const repoName = "my-portfolio";
+const repoName = "https://nadeeshasumanasekara.github.io/my-portfolio";
 
 const nextConfig = {
   output: "export", // Use static site generation
