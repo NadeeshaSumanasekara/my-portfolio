@@ -89,26 +89,38 @@ export const projects = [
     id: 2,
     title: "Constraint-Based Roster Scheduler for Hospitals",
     des: "Developed a Constraint-Based Roster Scheduler for hospitals as part of a group project. ",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    img: "./p2.svg",
+    iconLists: [
+      "./next.svg",
+      "./tail.svg",
+      "./ts.svg",
+      "./stream.svg",
+      "./c.svg",
+    ],
     link: "blank",
   },
-  // {
-  //   id: 3,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "/ui.aiimg.com",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "/ui.apple.com",
-  // },
+  {
+    id: 3,
+    title: "AI Image SaaS - Canva Application",
+    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    img: "./p3.svg",
+    iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./c.svg"],
+    link: "/ui.aiimg.com",
+  },
+  {
+    id: 4,
+    title: "Animated Apple Iphone 3D Website",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    img: "./p4.svg",
+    iconLists: [
+      "./next.svg",
+      "./tail.svg",
+      "./ts.svg",
+      "./three.svg",
+      "./gsap.svg",
+    ],
+    link: "/ui.apple.com",
+  },
 ];
 
 // export const testimonials = [
@@ -148,32 +160,32 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "./cloud.svg",
+    nameImg: "./cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "./app.svg",
+    nameImg: "./appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    img: "./host.svg",
+    nameImg: "./hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "./s.svg",
+    nameImg: "./streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "./dock.svg",
+    nameImg: "./dockerName.svg",
   },
 ];
 
@@ -184,7 +196,7 @@ export const workExperience = [
     Company: " LiveRoom (Pvt) Ltd.",
     desc: " Participated in two key projects, contributing to design, development, and deployment phases. ( USD Exporter project C++,SwiftUI, flutter iOS App Development )",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "./exp1.svg",
   },
   {
     id: 2,
@@ -192,7 +204,7 @@ export const workExperience = [
     Company: " Hatton National Bank PLC",
     desc: " Assisted in banking operations and customer service as a Trainee Bank Assistant.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "./exp2.svg",
   },
   // {
   //   id: 3,
@@ -213,12 +225,12 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "./git.svg",
     link: "https://github.com/NadeeshaSumanasekara", // GitHub link
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "./link.svg",
     link: "https://www.linkedin.com/in/nadeesha-sumanasekara/", // LinkedIn link
   },
 ];
