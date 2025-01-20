@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "./b1.svg",
+    img: "./445379791_353902911042794_6655861764818493784_n.jpg",
     spareImg: "",
   },
   {
@@ -73,9 +73,9 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Sinhala ASR System (Ongoing)",
-    des: "Collaborated on building a robust Sinhala Automatic Speech Recognition (ASR) system. Key contributions include",
-    img: "./p1.svg",
+    title: "SINHALA ASR SYSTEM (ONGOING)",
+    des: " Developing an ASR system for the low-resource Sinhala language by leveraging transfer learning techniques with pre-trained models. The system incorporates data augmentation and language modeling, to enhance recognition accuracy. ",
+    img: "./445379791_353902911042794_6655861764818493784_n.jpg",
     iconLists: [
       "./re.svg",
       "./tail.svg",
@@ -87,8 +87,8 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Constraint-Based Roster Scheduler for Hospitals",
-    des: "Developed a Constraint-Based Roster Scheduler for hospitals as part of a group project. ",
+    title: "FINDASTAY",
+    des: "A full-stack MERN project for booking, selling, and renting accommodations with secure authentication (JWT, Firebase, Google OAuth), property management, advanced search, and free deployment on Render. ",
     img: "./p2.svg",
     iconLists: [
       "./next.svg",
@@ -101,16 +101,16 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "DEEP LEARNING IMAGE CLASSIFICATION",
+    des: "Built and trained a GPU-accelerated binary image classification model as a learning project, focusing on end-to-end deep learning workflows.",
     img: "./p3.svg",
     iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./c.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: " AIRLINE RESERVATION SYSTEM",
+    des: " Developed a ticket booking system for airlines, focusing primarily on backend API creation and database design. Implemented a simplified version of a real-world airline reservation system to simulate its functionality effectively. ",
     img: "./p4.svg",
     iconLists: [
       "./next.svg",
